@@ -28,16 +28,22 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Lucie is a student of front-end developer based in Prague."
+    />
+    <title>Student of Front-end developer</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <ul>
-          <li><a href="/index.html"> Home</a></li>
-          <li><a href="/about.html"> About</a></li>
-          <li><a href="/work.html"> Work</a></li>
-          <li><a href="/contact.html"> Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Homepage"> Home</a>
+          </li>
+          <li><a href="/about.html" title="About Lucie"> About</a></li>
+          <li><a href="/work.html" title="Lucie's work"> Work</a></li>
+          <li><a href="/contact.html" title="Contact Lucie"> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -55,7 +61,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -66,7 +76,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
@@ -80,16 +92,26 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary project preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -100,34 +122,58 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
-          <h4>Work Inquiry</h4>
+          <h3>Work Inquiry</h3>
           <div>
             <p class="text-muted">Let's work together</p>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contaxt Lucie"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:jachimova.lucie@seznam.cz"
+          <a href="mailto:jachimova.lucie@seznam.cz" title="Email Lucie"
             >jachimova.lucie@seznam.cz</a
           >
         </div>
-        <div class="social-links d-flex justify-content-center mb-5">
-          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/luciejachimova" target="_blank">
-            <i class="fa-brands fa-github"></i
+        <div class="social-links d-flex justify-content-center">
+          <a href="#" target="_blank" title="LinkedIn profile"
+            ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
           ></a>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><i class="fa-brands fa-facebook"></i
+          <a
+            href="https://github.com/luciejachimova"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fa-brands fa-facebook" aria-hidden="true"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded Lucie, and it is
+          <a
+            href="https://github.com/luciejachimova/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
